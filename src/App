@@ -1,0 +1,22 @@
+public class App {
+    public static void main(String[] args) throws Exception {
+        System.out.println("The Battle Begin!");
+        System.out.println("Wizards and Warlocks");
+        System.out.println("Both Fighter Have 150 HP and 150 Mana");
+        System.out.println("~~~~~~~~~~~~~~~~~~");
+
+        Wizard Kadita = new Wizard("Kadita");
+        Warlock Thamuz = new Warlock("Thamuz");
+        Kadita.Tayschrenn(Thamuz);
+        Kadita.RoughWaves(Thamuz);
+        Thamuz.Bellatrix(Kadita);
+        Kadita.Severus(Thamuz);
+        Thamuz.Wanda(Kadita);
+        Thamuz.FireHeal(Thamuz);
+        Kadita.WaterHeal(Kadita);
+        Kadita.Sauron(Thamuz);
+        Thamuz.Aurora(Kadita);
+        Kadita.OceanOddity(Thamuz);
+
+    }
+}
